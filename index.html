@@ -4,12 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+  
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
     <title>Camila Romero Portfolio</title>
 </head>
 <body>
-    
+    <header class="top-nav grid-con">
+        <div id="Logo">
+            <img src="images/Logo.svg">
+        </div>
+
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+
+        <ul class="menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <section id="hero">
+            <div id="hero-img">
+                <spline-viewer url="https://prod.spline.design/oB1-J2kn0pgQK2aa/scene.splinecode"></spline-viewer>
+            </div>
+
+            <div>
+                <img src="images/Icon_BeHance.svg" id="socialM1">
+            </div>
+        </section>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- ScrollTo plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <!-- our main js file -->
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.516/build/spline-viewer.js"></script>
+
+    <script src="js/main.js"></script>
+
 </body>
 </html>
