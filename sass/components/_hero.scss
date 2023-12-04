@@ -9,13 +9,20 @@
 }
 
 #socialM1 {
-    height: 45px;
-    width: 49px;
-    position: absolute;
-    margin-bottom: 20px;
+    height: 42px;
+    width: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
 }
 
-@media (max-width: 768px) {
+
+h2 {
+    font-size: 30px;
+}
+
+@media (min-width: 768px) {
     #hero{
         height: 703px;
     }
@@ -28,10 +35,17 @@
     #socialM1 {
         height: 54px;
         width: 59px;
-        position: absolute;
-        margin-bottom: 20px;
+        justify-content: flex-start; 
+        margin-left: 50px;
     }
 
+    h2 {
+        text-align: right;
+        vertical-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: #F6FAFB;
+        margin-right: 40px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -43,25 +57,16 @@
         position: relative;
     }
     
+    .column {
+        width: 1200px;
+        display: flex;
+    } 
+
     #socialM1 {
-        height: 67px;
+        height: 59px;
         width: 73px;
-        position: absolute;
-        margin-left: 90px;
-    }
-
-    #socialM2 {
-        height: 67px;
-        width: 73px;
-        position: absolute;
-        margin-left: 220px;
-    }
-
-    #socialM3 {
-        height: 67px;
-        width: 73px;
-        position: absolute;
-        margin-left: 350px;
+        justify-content: flex-start; 
+        margin-left: 50px;
     }
     
     h2 {
@@ -69,7 +74,10 @@
         vertical-align: center;
         font-family: 'Roboto', sans-serif;
         color: #F6FAFB;
+        margin-right: 50px;
     }
+
+
 }
 
 @media screen and (min-width: 1920px) {
@@ -84,22 +92,8 @@
     #socialM1 {
         height: 122px;
         width: 113px;
-        position: absolute;
-        margin-left: 90px;
-    }
-
-    #socialM2 {
-        height: 122px;
-        width: 113px;
-        position: absolute;
-        margin-left: 320px;
-    }
-
-    #socialM3 {
-        height: 122px;
-        width: 113px;
-        position: absolute;
-        margin-left: 550px;
+        display: flex;
+        justify-content: flex-start; 
     }
     
     h2 {
