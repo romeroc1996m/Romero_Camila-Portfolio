@@ -1,3 +1,84 @@
+#about {
+    height: 1792px;
+    background: #E0C7E6;
+    display: grid;
+}
+
+.container {
+    
+    height: 1792px;
+    width: 946px;
+    display: flex;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+
+.title_about {
+    font-size: 80px;
+    opacity: 30%;
+}
+
+.second-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: #F6FAFB;
+    
+}
+
+.p-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #F6FAFB;
+    
+}
+
+
+@media screen and (min-width: 768px) {
+#about {
+    height: 1279px;
+    background: #E0C7E6;
+    display: grid;
+}
+
+.container {
+    
+    height: 1279px;
+    width: 946px;
+    display: flex;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+
+.title_about {
+    font-size: 80px;
+    opacity: 30%;
+}
+
+.second-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: #F6FAFB;
+    
+}
+
+.p-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #F6FAFB;
+    
+}
+}
+
 @media screen and (min-width: 1200px) {
     
     #about {
@@ -9,6 +90,7 @@
     .container {
         height: 1279px;
         width: 552px;
+        grid-column: 7/-1;
         background: rgba( 255, 255, 255, 0.35 );
         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
         backdrop-filter: blur( 10px );
@@ -44,11 +126,15 @@
 #about {
     height: 1279px;
     background: #E0C7E6;
+    display: grid;
+    
 }
 
 .container {
+    
     height: 1279px;
     width: 946px;
+    display: flex;
     background: rgba( 255, 255, 255, 0.35 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 10px );
@@ -67,12 +153,14 @@
     font-family: 'Roboto', sans-serif;
     font-size: 44px;
     color: #F6FAFB;
+    
 }
 
 .p-title{
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     color: #F6FAFB;
+    
 }
 
 }
