@@ -1,12 +1,13 @@
 @media screen and (min-width: 1200px) {
     #portfolio {
         height: 5176px;
-        
+        display: block;
     }
     
     #portfolio-section {
         width: 1200px;
         height: 1413px;
+        display: block;
     }
 
     #title-portfolio {
@@ -15,6 +16,8 @@
         color: #F6FAFB;
         justify-content: left;
         opacity: 30%;
+        margin-top: 30px;
+        display: relative;
     }
     
     #p-portfolio {
