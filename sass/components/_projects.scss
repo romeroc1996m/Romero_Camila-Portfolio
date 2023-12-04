@@ -1,0 +1,110 @@
+@media screen and (min-width: 1200px) {
+    #portfolio {
+        height: 5176px;
+        display: block;
+    }
+    
+    #portfolio-section {
+        width: 1200px;
+        height: 1413px;
+        display: block;
+    }
+
+    #title-portfolio {
+        font-family: 'Roboto', sans-serif;
+        font-size: 200px;
+        color: #F6FAFB;
+        justify-content: left;
+        opacity: 30%;
+        margin-top: 30px;
+        display: relative;
+    }
+    
+    #p-portfolio {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 45px;
+        color: #F6FAFB;
+        justify-content: right;
+        position: absolute;
+    }
+    
+    #portfolio-section {
+        height: 1413px;
+    }
+    
+    #title-project1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 125px;
+        color: #F6FAFB;
+    }
+    
+    #title-project2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 63px;
+        color: #F6FAFB;
+    }
+    
+    #p-1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 60px;
+        color: #F6FAFB;
+    }
+    
+    #p-2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40px;
+        color: #F6FAFB;
+    }
+    
+    #project_img {
+        height: 500px;
+        width: 500px;
+        border-radius: 50%;
+       }
+
+    button {
+        appearance: none;
+        background-color: transparent;
+        border: 0.125em solid #F6FAFB;
+        border-radius: 0.9375em;
+        box-sizing: border-box;
+        color: #F6FAFB;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+        font-size: 16px;
+        font-weight: 600;
+        line-height: normal;
+        margin: 0;
+        min-height: 3.75em;
+        min-width: 0;
+        outline: none;
+        padding: 1em 2.3em;
+        text-align: center;
+        text-decoration: none;
+        transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        will-change: transform;
+       }
+       
+       button:disabled {
+        pointer-events: none;
+       }
+       
+       button:hover {
+        color: #fff;
+        background-color: #1A1A1A;
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+       }
+       
+       button:active {
+        box-shadow: none;
+        transform: translateY(0);
+       }
+
+       
+    }

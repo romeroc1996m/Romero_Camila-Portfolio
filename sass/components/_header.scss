@@ -99,7 +99,7 @@
     transform: rotate(-405deg);
   }
   
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
  
    .top-nav {
      display: flex;
