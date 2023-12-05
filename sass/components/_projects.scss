@@ -1,3 +1,5 @@
+
+
 @media screen and (min-width: 1200px) {
     #project {
         height: 5176px;
@@ -12,7 +14,7 @@
 
     #title-project {
         font-family: 'Roboto', sans-serif;
-        font-size: 200px;
+        font-size: 140px;
         color: #F6FAFB;
         opacity: 30%;
         margin-top: 30px;
@@ -252,5 +254,33 @@
         font-size: 40px;
         color: #F6FAFB;
     }
+
+    }
+
+    @media screen and (min-width: 1920px) {
+
+        #project {
+            height: 5111px;
+            background-color: #ECDBF0;
+        }
+
+        #title-project {
+            font-family: 'Roboto', sans-serif;
+            font-size: 200px;
+            color: #F6FAFB;
+            opacity: 30%;
+            margin-top: 30px;
+            grid-column: 1/8;
+            grid-row: 1;
+        }
+
+        #p-project {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 45px;
+            color: #F6FAFB;
+            justify-content: right;
+            grid-column: 6/-1;  
+            grid-row: 1;      
+        }
 
     }
