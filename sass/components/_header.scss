@@ -1,9 +1,9 @@
 @use '../abstracts' as a;
 
-h2 {
-    vertical-align: center;
-    text-align: center;
-  }
+// h2 {
+//     vertical-align: center;
+//     text-align: center;
+//   }
   
   html, body {
     margin: 0;
@@ -14,7 +14,6 @@ h2 {
     
     box-sizing: border-box;
     font-size: 30px;
-    background-color: #ECDBEF;
   }
  
  #Logo{
@@ -99,7 +98,7 @@ h2 {
     transform: rotate(-405deg);
   }
   
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
  
    .top-nav {
      display: flex;

@@ -15,7 +15,9 @@
     margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
+
+@media (min-width: 768px) {
+
     #hero{
         height: 703px;
     }
@@ -30,8 +32,17 @@
         width: 59px;
         position: absolute;
         margin-bottom: 20px;
+        justify-content: flex-start; 
+        margin-left: 50px;
     }
 
+    h2 {
+        text-align: right;
+        vertical-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: #F6FAFB;
+        margin-right: 40px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -43,12 +54,26 @@
         position: relative;
     }
     
+    .column {
+        width: 1200px;
+        display: flex;
+    } 
+
     #socialM1 {
-        height: 67px;
+        height: 59px;
         width: 73px;
-        position: absolute;
-        margin-bottom: 20px;
+        justify-content: flex-start; 
+        margin-left: 50px;
     }
+    
+    h2 {
+        text-align: right;
+        vertical-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: #F6FAFB;
+        margin-right: 50px;
+    }
+
 }
 
 @media screen and (min-width: 1920px) {
@@ -65,5 +90,16 @@
         width: 113px;
         position: absolute;
         margin-bottom: 20px;
+        display: flex;
+        justify-content: flex-start; 
+    }
+    
+    h2 {
+        text-align: right;
+        font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+        color: #F6FAFB;
+        margin-right: 50px;
+
     }
 }

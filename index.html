@@ -12,6 +12,8 @@
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.518/build/spline-viewer.js"></script>
+
     <title>Camila Romero Portfolio</title>
 </head>
 <body>
@@ -33,23 +35,97 @@
     </header>
 
     <section>
-        <section id="hero">
-            <div id="hero-img">
-                <spline-viewer url="https://prod.spline.design/oB1-J2kn0pgQK2aa/scene.splinecode"></spline-viewer>
-            </div>
-
+        <section id="hero" class="grid-con">
             <div>
-                <img src="images/Icon_BeHance.svg" id="socialM1">
+                <div id="hero-img">    
+                    <spline-viewer url="https://prod.spline.design/Lkgc-i9UvjCGgl6t/scene.splinecode"></spline-viewer>
+                </div>
+
+                <div id="socialM1" class="column">
+                    <img src="images/Icon_BeHance.svg" >
+                    <img src="images/Icon_LinkedIn.svg" >
+                    <img src="images/Icon_Mail.svg" >
+
+                    <h2>Multimedia Designer</h2>
+
+                </div>
             </div>
         </section>
+
+        <section id="about" class="grid-con">
+                    
+                <h2 class="title_about">ABOUT</h2>
+                    
+                        <h3 id="p1">I'm so happy you took the time to see my work!</h3>
+                            <p id="p2">I'm Camila, a Capricorn sun, passionate about fine arts, and motion design. I'm a business manager who decided to change my life by jumping into the erratic design and front-end and back-end worlds, I am currently a second-year interactive media design student at Fanshawe College. Keep scrolling to discover my work, and I hope you enjoy it!</p>
+                <!-- <div class="container">
+                </div> -->
+            
+        </section>
+
+
+        <section id="project" class="grid-con">
+
+                <h2>Portfolio</h2>
+                <div id="p-project">
+                                    <p>My work is based on the design developed with adobe products such as illustrator, photoshop, after effects, and premier pro. I discovered a new passion for 3D modeling so feel free to take a closer look at these projects.</p>
+                                </div>
+
+                <div id="project-section">
+                    <div  id="title-projectSP1"><h2>STREET</h2></div>
+                        <div id="title-projectSP2"><h3>PHOTOGRAPHY</h3></div>
+                            <div id="pSP-1"><p>London, ON from a foreigner's perspective</p><br></div>
+                            <p id="pSP-2">These photos were taken with aperture mode on a DSLR camera.</p>
+
+                    <img id="project_img" src="images/1_london.jpg" alt="image project 1">
+                        <a href="studyCase.html">
+                            <button>more</button>
+                        </a>
+                </div>
+
+                <div id="project-section2">
+                    <h2 id="title-projectDR1">DR NUT</h2>
+                        <h3 id="title-projectDR2">REBRANDING</h3>
+                            <p id="pDR-1">3D modeling & photoshop</p>
+                                <p id="pDR-2">Rebranding of a New Orleans image </p>
+
+                    <img id="project_img1" src="images/2_DrNut.jpg" alt="image project 1">
+                    <button id="buttonDR">more</button>
+                </div>
+
+                <div id="project-section3">
+                    <h2 id="title-projectT1">PHOTO SHOOT</h2>
+                        <h3 id="title-projectT2">TRUE TACO</h3>
+                            <p id="pT-1">3D modeling & photoshop</p>
+                                <p id="pT-2">Snow Globe was created with cinema 4D.</p>
+
+                    <img id="project_img2" src="images/3_nachos.jpg" alt="image project 1">
+                    <button>more</button>
+                </div>  
+          
+        </section>
+        
+        <section id="contact">
+            <h2 id="titleContact">CONTACT ME</h2>
+            <p id="pContact">Thanks for taking the time to scroll through my work. Hope you like it!
+                <br>
+                Camila Romero</p>
+                <a href="contact.php">
+                <button>Let's get in touch</button>
+                </a>
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+        </section>
+
+
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <!-- ScrollTo plugin -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
     <!-- our main js file -->
-    <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.516/build/spline-viewer.js"></script>
-
+    
+    
     <script src="js/main.js"></script>
 
 </body>
