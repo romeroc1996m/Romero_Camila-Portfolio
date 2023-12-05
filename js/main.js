@@ -16,5 +16,4 @@
         navLink.addEventListener("click", scrollLink);
     })
 
-
 })();
