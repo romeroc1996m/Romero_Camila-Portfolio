@@ -1,45 +1,36 @@
 #about {
-    height: 1792px;
+    height: 1251px;
     background: #E0C7E6;
     display: grid;
 }
 
-.container {
-    
-    height: 1792px;
-    width: 946px;
-    display: flex;
-    background: rgba( 255, 255, 255, 0.35 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 10px );
-    -webkit-backdrop-filter: blur( 10px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    
-}
-
 .title_about {
     font-family: 'Roboto', sans-serif;
-    font-size: 201px;
+    font-size: 85px;
+    color: #F6FAFB;
+    grid-column-start: 1;
+    grid-column-end: 4;
     opacity: 30%;
-    color: #F6FAFB;
-    margin-top: 90px;
 }
 
-.second-title {
+#p1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 31px;
+    font-size: 30px;
     color: #F6FAFB;
-    align-content: right;
-    margin-top: 40px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-top: 60px;
+    
 }
 
-.p-about{
+#p2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 29px;
+    font-size: 35px;
     color: #F6FAFB;
-    align-content: right;
-    margin-top: 40px;
+    justify-content: right;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-top: 290px;
 }
 
 
@@ -48,20 +39,6 @@
         height: 1279px;
         background: #E0C7E6;
         display: grid;
-    }
-
-    .container {
-        
-        height: 1279px;
-        width: 946px;
-        display: flex;
-        background: rgba( 255, 255, 255, 0.35 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 10px );
-        -webkit-backdrop-filter: blur( 10px );
-        border-radius: 10px;
-        border: 1px solid rgba( 255, 255, 255, 0.18 );
-        
     }
 
     .title_about {
@@ -89,44 +66,41 @@
 @media screen and (min-width: 1200px) {
     
     #about {
-        height: 1279px;
+        height: 780px;
         background: #E0C7E6;
         display: grid;
-    }
-
-    .container {
-        height: 1279px;
-        width: 552px;
-        grid-column: 7/-1;
-        background: rgba( 255, 255, 255, 0.35 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 10px );
-        -webkit-backdrop-filter: blur( 10px );
-        border-radius: 10px;
-        border: 1px solid rgba( 255, 255, 255, 0.18 );
-        
     }
 
     .title_about {
         font-family: 'Roboto', sans-serif;
         font-size: 200px;
-        opacity: 30%;
         color: #F6FAFB;
-        grid-column: 2/5;
+        grid-column-start: 1;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        opacity: 30%;
     }
 
-    .second-title {
+    #p1 {
         font-family: 'Roboto', sans-serif;
         font-size: 35px;
         color: #F6FAFB;
-        justify-content: right;
+        grid-row-start: 1;
+        grid-column-start: 4;
+        grid-column-end: 11;
+        margin-top: 160px;
+        
     }
-    
-    .p-about{
+
+    #p2 {
         font-family: 'Montserrat', sans-serif;
-        font-size: 30px;
+        font-size: 35px;
         color: #F6FAFB;
         justify-content: right;
+        grid-row-start: 1;
+        grid-column-start: 4;
+        grid-column-end: 11;
+        margin-top: 290px;
     }
 }
 
@@ -136,42 +110,38 @@
         height: 1279px;
         background: #E0C7E6;
         display: grid;
-        
-    }
-
-    .container {
-        
-        height: 1279px;
-        width: 946px;
-        display: flex;
-        background: rgba( 255, 255, 255, 0.35 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 10px );
-        -webkit-backdrop-filter: blur( 10px );
-        border-radius: 10px;
-        border: 1px solid rgba( 255, 255, 255, 0.18 );
-        
     }
 
     .title_about {
         font-family: 'Roboto', sans-serif;
-        font-size: 110px;
+        font-size: 200px;
+        color: #F6FAFB;
+        grid-column-start: 1;
+        grid-column-end: 8;
+        grid-row-start: 1;
         opacity: 30%;
-        color: #F6FAFB;
     }
 
-    .second-title {
+    #p1 {
         font-family: 'Roboto', sans-serif;
-        font-size: 44px;
+        font-size: 35px;
         color: #F6FAFB;
+        grid-row-start: 1;
+        grid-column-start: 4;
+        grid-column-end: 11;
+        margin-top: 160px;
         
     }
 
-    .p-about{
+    #p2 {
         font-family: 'Montserrat', sans-serif;
-        font-size: 40px;
+        font-size: 35px;
         color: #F6FAFB;
-        
+        justify-content: right;
+        grid-row-start: 1;
+        grid-column-start: 4;
+        grid-column-end: 11;
+        margin-top: 290px;
     }
 
 }
